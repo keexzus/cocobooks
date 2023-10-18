@@ -35,12 +35,11 @@ container.innerHTML = people
   <a href=${site}>
   <button class="buy">
   Buy
-  <button/>
+  </button>
   </a>
 
  </article>`
-  })
-  .join('')
+  }).join('')
 
 const startSlider = (type) => {
   // get all three slides active,last next

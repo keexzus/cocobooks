@@ -41,7 +41,7 @@ const people = [
       job: 'Eric Cocoletzi',
       text: 'Schools of Fish.',
       site: 'https://www.amazon.com/dp/B0CF4NYK3F?ref_=cm_sw_r_mwn_dp_7M2AMWFSQ39BCD923CAN&language=en_US',
-    }
+    },
   ];
   
   export default people;

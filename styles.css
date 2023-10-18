@@ -216,15 +216,16 @@ h4 {
 
 
  .buy {
-
+  display: flex;
   position: absolute;
   border-radius: 25%;
   cursor: pointer;
-  border: solid;
+  border: transparent;
   background-color: lightblue;
-  right: 49%;
+  right: 50%;
+  size: 2rem;
+  padding: .75rem;
   
-  padding: 0.6rem;
  }
 
  
@@ -262,19 +263,19 @@ h4 {
 
 /* MORE CSS FOR JS */
 
-.social-icon {
+.social {
   display: flex;
   position: absolute;
+  border-radius: 15%;
   top: 3rem;
+  
   right: 50%;
   cursor: pointer;
-  color: var(--clr-white);
+  color: var(--clr-black);
   background-color: lightblue;
-  border: transparent
-  
-  border-radius: 15%;
-  font-size: 1.75rem;
-  padding: 0.25rem;
+  border: transparent;
+  size: 2rem;
+  padding: 1rem;
   
   
 }
