@@ -14,7 +14,7 @@ if (data.length === 2) {
 }
 container.innerHTML = people
   .map((person, slideIndex) => {
-    const { img, name, job, text, site } = person
+    const { img, title, author, text, site } = person
     let position = 'next'
     if (slideIndex === 0) {
       position = 'active'
@@ -26,9 +26,9 @@ container.innerHTML = people
       position = 'active'
     }
     return `<article class="slide ${position}">
-  <img src=${img} class="img" alt="${name}"/>
-  <h4>${name}</h4>
-  <p class="title">${job}</p>
+  <img src=${img} class="img" alt="${title}"/>
+  <h4>${title}</h4>
+  <p class="title">${author}</p>
   <p class="text">
    ${text}
   </p>
