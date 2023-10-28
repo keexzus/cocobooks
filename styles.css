@@ -328,30 +328,59 @@ h4 {
   transform: translateX(-100%);
 }
 
-.nav ul li a {
-    /* transition: all 0.3s ease;
-    color: black;
-    align-items: center;
+
+ .nav {
+    margin-bottom: 5rem;
+ }
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
     justify-content: center;
-    padding-top: 0px;
-    padding-bottom: 2rem; */
-    font-family: 'Muli', sans-serif;  
-    font: black;
+}
+
+.nav ul li {
+    font-family: 'Muli', sans-serif;
     cursor: pointer;
-    display: inline-block;
-    width: 80%;
-    background: rgb(249, 250, 251);
+    font-size: 14px;
+}
+
+.nav ul li a {
+    text-decoration: none;
     padding: 10px;
-    margin-bottom: 2rem;
-    font-family: inherit;
-    font-size: 16px;
     border: 0;
     border-radius: 5px;
 }
 
 .nav ul li a:hover {
+    font-size: 2.1rem;
+    transform: scale(1.1);
+    opacity: 0.8;
+    transition: 0.4s ease;
+}
+
+
+.nav ul li a {
+   /* font-family: 'Muli', sans-serif;  
+    font: black;
+    cursor: pointer;
+    /* list-style-type: none; */
+    /* display: inline-block; */
+    width: 20%;
+    background: rgb(249, 250, 251);
+    padding: 10px;
+    margin-bottom: 5rem;
+    font-family: inherit;
+    font-size: 14px;
+    border: 0;
+    border-radius: 5px;
+} */
+/* 
+.nav ul li a:hover {
         font-size: 2.1rem;
         transform: scale(1.1);
         opacity: 0.8;
         transition: 0.4s ease;
-      }
+      } */
+
+ 
