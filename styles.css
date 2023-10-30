@@ -239,7 +239,7 @@ h4 {
  
 .btn {
   position: absolute;
-  top: 175px;
+  top: 200px;
   background: black;
   /* var(--clr-grey-5); */
   color: var(--clr-white);
@@ -281,25 +281,7 @@ h4 {
   }
 } 
 
-/* MORE CSS FOR JS */
 
-/* .social {
-  display: flex;
-  position: absolute;
-  border-radius: 15%;
-  top: 3rem;
-  right: 50%;
-  cursor: pointer;
-  color: var(--clr-black);
-  background-color: white;
-  border: transparent;
-  size: 2rem;
-  padding: 1rem;
-}
-.social :hover {
-    transform: scale(1.5);
-    transition: all 0.3s ease;
-} */
 
 .slide-container {
   display: flex;
@@ -421,61 +403,3 @@ nav {
     transform: rotate(765deg) translateY(-5.5px);
   }
  
-
-/* 
- .nav {
-    margin-bottom: 5rem;
- }
-.nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 20px; /* Adjust the gap as needed */
-    /* justify-content: center; */
-/* } */
-
-/* .nav ul li {
-    font-family: 'Muli', sans-serif;
-    cursor: pointer;
-    font-size: 14px;
-} */
-
-/* .nav ul li a {
-    text-decoration: none;
-    padding: 10px;
-    border: 0;
-    border-radius: 5px;
-} */
-
-/* .nav.active ul li a:hover {
-    /* font-size: 2.1rem; */
-    /* transform: scale(1.1);
-    opacity: 0.8;
-    transition: 0.4s ease;
-}  */
-
-/* 
-.nav ul li a {
-    
-    width: 20%;
-    background: rgb(249, 250, 251);
-    padding: 10px;
-    margin-bottom: 5rem;
-    font-family: inherit;
-    font-size: 14px;
-    border: 0;
-    border-radius: 5px;
-}  */
-
-/* // animation //  */
-
-/*  */
-
-/* 
-.nav ul li a:hover {
-        font-size: 2.1rem;
-        transform: scale(1.1);
-        opacity: 0.8;
-        transition: 0.4s ease;
-      } */
-
-  /* */ 
