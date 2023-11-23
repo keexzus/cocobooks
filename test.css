@@ -1,0 +1,15 @@
+
+
+h1 {
+    color: white;
+    size: 15px;
+    display: flex;
+    margin-left: 25%;
+}
+
+body {
+    /* box-sizing: border-box; */
+    background: orange;
+    
+    
+}
